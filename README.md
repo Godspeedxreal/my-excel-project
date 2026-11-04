@@ -33,6 +33,26 @@ The primary `DATA` worksheet contains **1,952 records** and 8 columns:
 
 The primary data sheet has no blank values in these eight fields. The workbook also includes a supplementary `Sheet10` worksheet; the dashboard analysis and headline figures in this README are based on the 1,952 records in `DATA`.
 
+## Project workflow
+
+The project follows a structured Excel analysis process, moving from the raw sales records to an interactive-style summary and business recommendations.
+
+1. **Load the source data** – Start with the `DATA` worksheet containing 1,952 sales records and the eight available fields.
+2. **Inspect the dataset** – Review the column names, data types, date coverage, and completeness of the primary fields. Confirm the reporting period before drawing time-based conclusions.
+3. **Prepare the analysis** – Use the source fields consistently for grouping and summarisation. Check that the date field is suitable for monthly grouping and that revenue, profit, and quantity are treated as numeric measures.
+4. **Build PivotTable summaries** – Aggregate the records to answer the project questions:
+   - Revenue by product category.
+   - Revenue and profit by month/year.
+   - Quantity sold by product sub-category.
+   - Revenue and profit by region.
+5. **Create visualisations** – Use charts linked to the summaries to make category, time, product, and regional comparisons easier to interpret.
+6. **Assemble the dashboard** – Bring the key visuals together on the `DASHBOARD` worksheet so the main performance patterns can be reviewed in one place.
+7. **Interpret the results** – Compare revenue, profit, and quantity rather than relying on sales revenue alone. Investigate notable patterns such as the South region's negative total profit and the partial July reporting period.
+8. **Develop business recommendations** – Translate the findings into practical actions, including reviewing regional profitability, monitoring margins, and using complete months for fair comparisons.
+9. **Review and refresh** – When the source data is updated, check the reporting period and refresh the relevant PivotTables and charts before using the dashboard.
+
+**Workflow at a glance:** Source data → Data inspection → Analysis preparation → PivotTables → Charts → Dashboard → Insights → Recommendations.
+
 ## Tools and Excel techniques
 
 - Microsoft Excel
