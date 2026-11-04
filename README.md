@@ -68,6 +68,10 @@ The workbook includes the following dashboard support sheets:
 
 *The workbook does not specify a currency, so the revenue and profit figures are shown without a currency symbol.*
 
+
+## Dashboard Review
+<img width="414" height="488" alt="Screenshot 2026-11-04 180815" src="https://github.com/user-attachments/assets/b48fcf8a-72a3-4d63-9188-331b5c1aac2c" />
+
 ### Category performance
 
 - **Office Supplies** generated the highest revenue: 17,817,788.83, approximately 38.81% of total revenue.
